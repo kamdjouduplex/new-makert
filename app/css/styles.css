@@ -13,6 +13,7 @@
 .demo-main {
   margin-top: -39vh;
   flex-shrink: 0;
+  overflow-y: hidden;
 }
 
 .demo-header .mdl-layout__header-row {
@@ -28,8 +29,8 @@
 
 .demo-content {
   border-radius: 2px;
-  padding: 10px 16px;
-  margin-bottom: 10px;
+  padding: 0px 0px;
+  margin-bottom: 30px;
 }
 
 .demo-layout.is-small-screen .demo-content {
@@ -46,4 +47,24 @@
 
 .demo-footer .mdl-mini-footer--link-list a {
   font-size: 13px;
+}
+
+/*
+/* Customized mdl code goes here
+*/
+
+/*left navbar */
+div.mdl-layout__drawer{
+  height: 85%;
+}
+
+/* create button */
+.mdl-button--fab.mdl-button--colored {
+    background: #FF9933;
+    color: #fff;
+}
+
+.mdl-button--fab.mdl-button--colored::hover {
+    background: #BF360C;
+    color: #fff;
 }
