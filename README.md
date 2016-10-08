@@ -1,2 +1,2 @@
 # new-makert
-the first social media dedicated for ecommerce
+all the mockups of the new-market project goes here!
