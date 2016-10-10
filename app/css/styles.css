@@ -54,6 +54,10 @@
   size: 2em;
 }
 
+.timeline{
+  overflow-y: scroll;
+  height: 85%;
+}
 /*
 /* Customized mdl code goes here
 */
