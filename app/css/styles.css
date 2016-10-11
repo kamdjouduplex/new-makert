@@ -25,6 +25,7 @@
   width: calc(100% - 30px);
   margin: 0 auto;
   height: 96vh;
+  overflow-y: hidden;
 }
 
 .demo-content {
@@ -49,22 +50,37 @@
   font-size: 13px;
 }
 
-.ccolor{ 
+.ccolor{
   color: #BF360C;
   size: 2em;
 }
 
 .timeline{
   overflow-y: scroll;
-  height: 85%;
+  height: 80vh;
 }
+
+/* text for the card */
+.demo-card-wide.mdl-card {
+  width: 99%;
+  margin: 1px
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 125px;
+  background: url('../images/welcome_card.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
 /*
 /* Customized mdl code goes here
 */
 
 /*left navbar */
 div.mdl-layout__drawer{
-  height: 85%;
+  height: 84%;
 }
 
 /* create button */
