@@ -10,7 +10,7 @@ body{
 .demo-ribbon {
   width: 100%;
   height: 40vh;
-  background-color: #FF9933;
+  background-color: #1d9a75;
   flex-shrink: 0;
 }
 
@@ -71,20 +71,21 @@ div.page-content{
 
 }
 
-.demo-card-wide.mdl-card {
-  width: 99%;
-  margin: 1px;
-  background-color: #90a4ae;
-}
 
 /* text for the card */
 .demo-card-wide.mdl-card {
   width: 99%;
   margin: 2px 1px 2px;
+  transition: transform 300ms;
+  background-color: #fdfdfe;
 }
+.demo-card-wide.mdl-card:hover {
+   transform: scale(0.98);
+ }
+
 .demo-card-wide > .mdl-card__title {
   color: #fff;
-  height: 125px;
+  height: 120px;
   background: url('../images/welcome_card.jpg') center / cover;
 }
 .demo-card-wide > .mdl-card__menu {
@@ -107,6 +108,23 @@ div.mdl-layout__drawer{
 }
 
 .mdl-button--fab.mdl-button--colored::hover {
-    background: #BF360C;
+    background: #FF9933;
     color: #fff;
+}
+
+.mdl-card__title-text a{
+  color: #1d9a75;
+  font-size: 0.8em;
+}
+
+/*chip property */
+
+.price {
+  background-color: #FF9933;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.primiry{
+  color: #FF9933;
 }
