@@ -1,0 +1,287 @@
+<!--Author Kamdjou Temfack Duplex Marie-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Material Design Lite</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../node_modules/material-design-lite/material.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 50px;
+      margin-bottom: 40px;
+      z-index: 5000;
+    }
+    .responsive-img {
+        height: auto;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+      
+      <div class="demo-ribbon"></div>
+      <main class="demo-main mdl-layout__content">
+        <div class="demo-container mdl-grid">
+          <div class=" mdl-color--white mdl-shadow--4dp content mdl-color-text--grey-800 mdl-cell mdl-cell--12-col">
+            <header class="demo-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
+                    <div class="mdl-layout__header-row">
+                    <span class="mdl-layout-title"><img src="images/logos.png" alt="" class="responsive-img" width="150px" height="70px"></span>
+                    <div class="mdl-layout-spacer"></div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                        <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
+                        <i class="material-icons">search</i>
+                        </label>
+                        <div class="mdl-textfield__expandable-holder">
+                        <input class="mdl-textfield__input" type="text" id="search">
+                        <label class="mdl-textfield__label" for="search">Enter your query...</label>
+                        </div>
+                    </div>
+                    </div>
+                </header>
+            <div class="demo-content">
+                <!-- No header, and the drawer stays open on larger screens (fixed drawer). -->
+                <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+                <div class="mdl-layout__drawer">
+                    <span class="mdl-layout-title">Popular Categories</span>
+                    <nav class="mdl-navigation">
+                        <a class="mdl-navigation__link" href="">Link</a>
+                        <a class="mdl-navigation__link" href="">Link</a>
+                        <a class="mdl-navigation__link" href="">Link</a>
+                    </nav>
+                </div>
+                <main class="mdl-layout__content" style="padding-right: 30px">
+                    <div class="page-content">
+                      <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
+                          <div class="timeline">
+                              <div class="mdl-grid">
+                                  <div class="mdl-cell--3-col-desktop">
+                                      <!-- Wide card with share menu button -->
+                                      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                                          <div class="mdl-card__title">
+
+                                          </div>
+                                          <div class="mdl-card__supporting-text">
+                                              <h4 class="mdl-card__title-text" ><a href="">Nexus7 Google</a></h4>
+                                              Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                                          </div>
+                                          <div class="mdl-card__actions mdl-card--border">
+                                              <!-- Basic Chip -->
+                                              <span class="mdl-chip price">
+                                                  <span class="mdl-chip__text">1000 fcfa</span>
+                                              </span>
+                                              &nbsp;
+                                              &nbsp;
+                                              &nbsp;
+                                              <span class="mdl-chip mdl-chip--deletable">
+                                                <span class="mdl-chip__text">502 Likes</span>
+                                                <button type="button" class="mdl-chip__action"><i class="material-icons primiry">favorite</i></button>
+                                              </span>
+                                          </div>
+                                          <div class="mdl-card__menu">
+                                              <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                                  <i class="material-icons">share</i>
+                                              </button>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="mdl-cell--3-col-desktop">
+                                      <!-- Wide card with share menu button -->
+                                      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                                          <div class="mdl-card__title">
+
+                                          </div>
+                                          <div class="mdl-card__supporting-text">
+                                              <h4 class="mdl-card__title-text" ><i class="material-icons" style="color: #1d9a75;">check_circle</i><a href="">Nexus7 Google</a></h4>
+                                              Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                                          </div>
+                                          <div class="mdl-card__actions mdl-card--border">
+                                              <!-- Basic Chip -->
+                                              <span class="mdl-chip price">
+                                                  <span class="mdl-chip__text">1000 fcfa</span>
+                                              </span>
+                                              &nbsp;
+                                              &nbsp;
+                                              &nbsp;
+                                              <span class="mdl-chip mdl-chip--deletable">
+                                                <span class="mdl-chip__text">502 Likes</span>
+                                                <button type="button" class="mdl-chip__action"><i class="material-icons">favorite</i></button>
+                                              </span>
+                                          </div>
+                                          <div class="mdl-card__menu">
+                                              <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                                  <i class="material-icons">share</i>
+                                              </button>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="mdl-cell--3-col-desktop">
+                                      <!-- Wide card with share menu button -->
+                                      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                                          <div class="mdl-card__title">
+
+                                          </div>
+                                          <div class="mdl-card__supporting-text">
+                                              <h4 class="mdl-card__title-text" ><i class="material-icons" style="color: #1d9a75;">check_circle</i><a href="">Nexus7 Google</a></h4>
+                                              Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                                          </div>
+                                          <div class="mdl-card__actions mdl-card--border">
+                                              <!-- Basic Chip -->
+                                              <span class="mdl-chip price">
+                                                  <span class="mdl-chip__text">1000 fcfa</span>
+                                              </span>
+                                              &nbsp;
+                                              &nbsp;
+                                              &nbsp;
+                                              <span class="mdl-chip mdl-chip--deletable">
+                                                <span class="mdl-chip__text">502 Likes</span>
+                                                <button type="button" class="mdl-chip__action"><i class="material-icons primiry">favorite_border</i></button>
+                                              </span>
+                                          </div>
+                                          <div class="mdl-card__menu">
+                                              <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                                  <i class="material-icons">share</i>
+                                              </button>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="mdl-cell--3-col-desktop">
+                                      <!-- Wide card with share menu button -->
+                                      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                                          <div class="mdl-card__title">
+
+                                          </div>
+                                          <div class="mdl-card__supporting-text">
+                                              <h4 class="mdl-card__title-text" ><a href="">Nexus7 Google</a></h4>
+                                              Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                                          </div>
+                                          <div class="mdl-card__actions mdl-card--border">
+                                              <!-- Basic Chip -->
+                                              <span class="mdl-chip price">
+                                                  <span class="mdl-chip__text">1000 fcfa</span>
+                                              </span>
+                                              &nbsp;
+                                              &nbsp;
+                                              &nbsp;
+                                              &nbsp;
+                                              <span class="mdl-chip mdl-chip--deletable">
+                                                <span class="mdl-chip__text">502 Likes</span>
+                                                <button type="button" class="mdl-chip__action"><i class="material-icons">favorite</i></button>
+                                              </span>
+                                          </div>
+                                          <div class="mdl-card__menu">
+                                              <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                                  <i class="material-icons">share</i>
+                                              </button>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="mdl-cell--3-col-desktop">
+                                      <!-- Wide card with share menu button -->
+                                      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                                          <div class="mdl-card__title">
+
+                                          </div>
+                                          <div class="mdl-card__supporting-text">
+                                              <h4 class="mdl-card__title-text" ><i class="material-icons" style="color: #1d9a75;">check_circle</i><a href="">Nexus7 Google</a></h4>
+                                              Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                                          </div>
+                                          <div class="mdl-card__actions mdl-card--border">
+                                              <!-- Basic Chip -->
+                                              <span class="mdl-chip price">
+                                                  <span class="mdl-chip__text">1000 fcfa</span>
+                                              </span>
+                                              &nbsp;
+                                              &nbsp;
+                                              &nbsp;
+                                              <span class="mdl-chip mdl-chip--deletable">
+                                                <span class="mdl-chip__text">502 Likes</span>
+                                                <button type="button" class="mdl-chip__action"><i class="material-icons primiry">favorite_border</i></button>
+                                              </span>
+                                          </div>
+                                          <div class="mdl-card__menu">
+                                              <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                                  <i class="material-icons">share</i>
+                                              </button>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="mdl-cell--3-col-desktop">
+                                      <!-- Wide card with share menu button -->
+                                      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                                          <div class="mdl-card__title">
+
+                                          </div>
+                                          <div class="mdl-card__supporting-text">
+                                              <h4 class="mdl-card__title-text" ><i class="material-icons" style="color: #1d9a75;">check_circle</i><a href="">Nexus7 Google</a></h4>
+                                              Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                                          </div>
+                                          <div class="mdl-card__actions mdl-card--border">
+                                              <!-- Basic Chip -->
+                                              <span class="mdl-chip price">
+                                                  <span class="mdl-chip__text">1000 fcfa</span>
+                                              </span>
+                                              &nbsp;
+                                              &nbsp;
+                                              &nbsp;
+                                              <span class="mdl-chip mdl-chip--deletable">
+                                                <span class="mdl-chip__text">502 Likes</span>
+                                                <button type="button" class="mdl-chip__action"><i class="material-icons">favorite</i></button>
+                                              </span>
+                                          </div>
+                                          <div class="mdl-card__menu">
+                                              <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                                  <i class="material-icons">share</i>
+                                              </button>
+                                          </div>
+                                      </div>
+                                  </div>
+                          </div>
+                          </div>
+                      </div>
+                      
+                    </div>
+                </main>
+                </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <button id="view-source" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored"><i class="material-icons">&#xE150;</i></button>
+    <script src="../node_modules/material-design-lite/material.min.js"></script>
+  </body>
+</html>

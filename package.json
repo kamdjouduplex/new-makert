@@ -1,0 +1,18 @@
+{
+  "name": "new-makert",
+  "version": "1.0.0",
+  "description": "this is all ui related code of the new Market project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamdjouduplex/new-makert/tree/new-market-ui"
+  },
+  "author": "kamdjou temfack duplex m",
+  "license": "ISC",
+  "dependencies": {
+    "material-design-lite": "^1.2.1"
+  }
+}

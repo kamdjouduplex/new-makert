@@ -1,2 +1,2 @@
 # new-makert
-the first social media dedicated for ecommerce
+this is all ui related code of the new Market project
